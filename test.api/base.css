@@ -1,0 +1,93 @@
+@charset "utf-8";
+/*===============================================
+リセット
+===============================================*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin: 0; padding: 0;} table{ border-collapse: collapse; border-spacing: 0;} img{ border: none; vertical-align: bottom;} address,caption,cite,code,dfn,em,strong,th,var{ font-style:normal; font-weight:normal;} article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{ display: block;}
+a{ text-decoration: none; color: #111111;} a:hover{ text-decoration: underline;} label{ cursor: pointer;}
+/*===============================================
+共通
+===============================================*/
+body{
+	background-color: #000;
+}
+
+.box_left{
+	height:auto;
+background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8));
+}
+.box_right{
+	height:auto;
+background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.box_right2{
+	height:1500px;
+background-image:linear-gradient(#05FBFF, #1E00FF);
+}
+
+.box_0{
+	width:200px;
+	height:auto;
+float: left;
+border:1px solid #000;
+position:relative;
+}
+.box_1{
+	width:100%;
+	height:auto;
+float: left;
+}
+	
+.box_2{
+	width:200px;
+	height:300px;
+float: left;
+position:absolute;
+top:0;
+left:0;
+z-index:10;
+}	
+
+.box_4{
+	width:100%;
+	height:auto;
+float: left;
+background-color: #fc9999;
+padding-left:10px;
+}
+
+.box_5{
+	margin-top:10px;
+	width:100%;
+	height:auto;
+float: left;
+background-color: #48c3fc;
+padding-left:10px;
+}
+
+.box_6{
+	margin-top:10px;
+	width:100%;
+	height:auto;
+float: left;
+background-color: #00cd9a;
+padding-left:10px;
+}
+
+
+#output{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+
+a.moda{
+	display: block;
+	width:100%;
+	height:100%;
+}
+	
+
+
+.wid100{width:100%;}
+
